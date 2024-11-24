@@ -1,0 +1,12 @@
+.photo{
+    width: 50rem;
+    position: absolute;
+    align-self: right;
+    margin-left: 45rem;
+    margin-top: 6rem;    
+
+}
+
+.photo img{
+    border-radius: 1.5rem;
+}

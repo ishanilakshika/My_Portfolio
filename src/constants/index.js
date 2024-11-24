@@ -31,8 +31,8 @@ import {
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "achievement",
+      title: "Achievement",
     },
     {
       id: "contact",
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI/UX Engineer",
       icon: creator,
     },
   ];
@@ -80,10 +80,7 @@ import {
       name: "React JS",
       icon: reactjs,
     },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
+    
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -116,55 +113,53 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "CodeSprint 7.0",
+      company_name: "Winner",
       icon: starbucks,
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Achieved 1st place in CodeSprint 7.0, an annual coding competition organized by the IEEE Student Branch of IIT.",
+        "Secured the win among 525+ teams and over 2400 delegates, representing a high level of commitment and technical proficiency.",
+        "Competed with peers from more than 22 universities, furthering skills and earning recognition in a large, multi-university environment.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Pearl Hack 2.0",
+      company_name: "2nd Runners-Up",
       icon: tesla,
       iconBg: "#E6DEDD",
       date: "Jan 2021 - Feb 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Earned 2nd Runner-Up in Pearl Hack 2.0, a hackathon organized by the IEEE WIE Student Branch at Sabaragamuwa University of Sri Lanka.",
+        "Demonstrated innovation and technical skills by competing with teams across diverse domains, earning recognition for creativity and problem-solving.",
+        "Showcased collaboration and expertise while standing out among talented participants in a university-level environment.",
+        
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "HackX 2022",
+      company_name: "Semi-Finalists",
       icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Reached the Semi-Finals of HackX 2022, an innovation-driven hackathon organized by the Department of Industrial Management at the University of Kelaniya.",
+        "Competed against exceptional teams from multiple universities, showcasing problem-solving and technical abilities.",
+        "Gained recognition for innovative ideas and teamwork in a competitive and collaborative environment.",
+        
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Hack Like a Girl 1.0",
+      company_name: "Finalists",
       icon: meta,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Selected among the top 15 teams in the Hack Like a Girl Hackathon 2022, organized by SLASSCOM in collaboration with IFC (International Finance Corporation - World Bank Group).",
+        "Developed and presented Fairy Women Safety App, an innovative application designed to enhance women's safety through technology. The app includes an SOS button for emergencies and an online counseling platform for support and guidance.",
+        
       ],
     },
   ];

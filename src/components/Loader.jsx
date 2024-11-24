@@ -16,7 +16,7 @@ const Loader = () => {
       
       >{progress.toFixed(2)}%</p>
     </Html>
-  );
-};
+  )
+}
 
 export default Loader;
