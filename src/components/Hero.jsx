@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
-import './hero.css'
+import './hero.css';
+import myphoto from "../assets/myphoto.png";
+
 
 const Hero = () => {
   return (
@@ -29,7 +31,7 @@ const Hero = () => {
         
       </div>
       <div className="photo">
-      <img src="src\assets\myphoto.png" alt="" />
+      <img src={myphoto} alt="My Photo" />
         </div> 
       
       {/* <ComputersCanvas /> */}
