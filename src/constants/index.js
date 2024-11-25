@@ -119,9 +119,9 @@ import {
       iconBg: "#383E56",
       date: "March 2020 - April 2021",
       points: [
-        "Achieved 1st place in CodeSprint 7.0, an annual coding competition organized by the IEEE Student Branch of IIT.",
-        "Secured the win among 525+ teams and over 2400 delegates, representing a high level of commitment and technical proficiency.",
-        "Competed with peers from more than 22 universities, furthering skills and earning recognition in a large, multi-university environment.",
+        "Achieved 1st place in CodeSprint 7.0, an annual coding competition organized by the IEEE Student Branch of IIT. Secured the win among 525+ teams and over 2400 participants, demonstrating exceptional technical skills and innovation.",
+        "Designed and developed EventVibe, an innovative website connecting event planners with clients. EventVibe allows event planners to showcase their work and helps clients find and access tailored services effortlessly.",
+       
       ],
     },
     {
@@ -132,8 +132,8 @@ import {
       date: "Jan 2021 - Feb 2022",
       points: [
         "Earned 2nd Runner-Up in Pearl Hack 2.0, a hackathon organized by the IEEE WIE Student Branch at Sabaragamuwa University of Sri Lanka.",
-        "Demonstrated innovation and technical skills by competing with teams across diverse domains, earning recognition for creativity and problem-solving.",
-        "Showcased collaboration and expertise while standing out among talented participants in a university-level environment.",
+        "Developed TeenWallet, a groundbreaking app enabling cardless payments for teenagers, with features like parental expense monitoring and daily spending limits. Teenagers can make payments easily by showing a QR code, even without carrying a mobile phone.",
+        
         
       ],
     },
@@ -145,8 +145,8 @@ import {
       date: "Jan 2022 - Jan 2023",
       points: [
         "Reached the Semi-Finals of HackX 2022, an innovation-driven hackathon organized by the Department of Industrial Management at the University of Kelaniya.",
-        "Competed against exceptional teams from multiple universities, showcasing problem-solving and technical abilities.",
-        "Gained recognition for innovative ideas and teamwork in a competitive and collaborative environment.",
+        "Designed and developed StudentPal, a platform that aggregates available scholarships from various companies, enabling undergraduate students to view, review, and apply for them seamlessly. The platform simplifies the process for both students and scholarship providers.",
+        
         
       ],
     },
@@ -167,7 +167,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",

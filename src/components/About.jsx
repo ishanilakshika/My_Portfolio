@@ -42,7 +42,7 @@ const About = () => {
       variants={fadeIn("", "", 0.1, 1)}
       className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        A Software Engineering undergraduate at Sabaragamuwa University of Sri Lanka with a strong focus on full-stack development and UI/UX design. I’m passionate about building seamless, user-friendly digital experiences that blend functionality with aesthetic appeal. Driven by curiosity and a desire to solve real-world challenges, I continuously seek opportunities to expand my skills and refine my knowledge. Whether working independently or in a team, I bring dedication, creativity, and an enthusiasm for making meaningful contributions.
+        I am a Software Engineering undergraduate at Sabaragamuwa University of Sri Lanka, with a strong interest in full-stack development and UI/UX design. My projects and experiences showcase my passion for crafting seamless, user-friendly digital solutions that merge functionality with visual appeal. Motivated by curiosity and a drive to solve real-world problems, I constantly seek to expand my expertise and stay ahead in the ever-evolving tech landscape. Whether working independently or within a team, I bring creativity, dedication, and a commitment to delivering meaningful and impactful results.
 
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">

@@ -6,6 +6,9 @@ import { styles } from '../styles';
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
+import './contact.css';
+import contactme from "../assets/contactme.png";
+
 // PxM2EFC8vvsrrZrgR
 // template_5r6eqi2
 // service_kyov8bn
@@ -108,6 +111,7 @@ const Contact = () => {
             <button
               type="submit"
               className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl">
+                {loading ? 'Sending...' : 'Send'}
 
             </button>
 
@@ -117,7 +121,13 @@ const Contact = () => {
         variants={slideIn('right', "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
         >
-          <EarthCanvas />
+      
+      
+      <div className="image-container">
+        <img src={contactme} alt="Contact Me" className="profile-image" />
+        </div>
+      
+          {/* <EarthCanvas /> */}
 
       </motion.div>
 
