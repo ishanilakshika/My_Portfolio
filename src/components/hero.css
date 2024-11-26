@@ -1,4 +1,4 @@
-.photo{
+.myphoto{
     width: 50rem;
     position: absolute;
     align-self: right;
@@ -7,6 +7,35 @@
 
 }
 
-.photo img{
+.myphoto img{
     border-radius: 1.5rem;
+}
+
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .myphoto {
+        width: 90%; /* Adjust width to fit smaller screens */
+        position: static; /* Avoid absolute positioning for better responsiveness */
+        margin: 0 auto; /* Center the image horizontally */
+        margin-top: 4rem; /* Increased top margin to move image down */
+    }
+
+    .myphoto img {
+        width: 100%; /* Ensure the image scales with its container */
+        border-radius: 1rem; 
+        margin-top: 3rem;
+        padding-top: 20rem;/* Slightly reduce the border radius */
+    }
+}
+
+@media (max-width: 480px) {
+    .myphoto {
+        width: 100%; /* Further adjustments for very small screens */
+        margin-top: 5rem; /* Increased top margin to move image down */
+    }
+
+    .myphoto img {
+        border-radius: 0.5rem; /* Adjust border radius for smaller screens */
+    }
 }

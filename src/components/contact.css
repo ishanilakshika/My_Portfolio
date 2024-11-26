@@ -1,12 +1,27 @@
-
-
-
-.image-container {
+.myimage-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 12rem;
     margin-left: 8rem;
     width: 45rem;
-    
   }
+
+  /* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  .myimage-container {
+      justify-content: flex-start; /* Align to the left */
+      margin-top: 2rem; /* Move the image slightly up */
+      margin-left: 2rem; /* Reduce left margin for better positioning */
+      width: 30rem; /* Make the container smaller */
+  }
+}
+
+@media (max-width: 480px) {
+  .myimage-container {
+      justify-content: flex-start; /* Ensure alignment to the left */
+      margin-top: 6rem; /* Move the image further up */
+      margin-left: 1rem; /* Further reduce left margin */
+      width: 20rem; /* Make the container even smaller */
+  }
+}

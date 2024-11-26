@@ -123,7 +123,7 @@ const Contact = () => {
         >
       
       
-      <div className="image-container">
+      <div className="myimage-container">
         <img src={contactme} alt="Contact Me" className="profile-image" />
         </div>
       
