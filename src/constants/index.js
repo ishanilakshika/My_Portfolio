@@ -1,5 +1,14 @@
 import codesprintImage from "../assets/codesprint.jpg";
 import pearlhackImage from "../assets/pearlhack.jpg";
+import derma from "../assets/derma.png";
+import cityways from "../assets/cityways.png";
+import eventvibes from "../assets/eventvibes.png";
+import campinga from "../assets/campinga.png";
+import slar from "../assets/slar.png";
+import hacklikeagirl from "../assets/hacklikeagirl.png";
+import creativesoftware from "../assets/creative.png";
+import codegen from "../assets/codegen.png";
+import zone24 from "../assets/zone24.png";
 import {
     mobile,
     backend,
@@ -169,27 +178,51 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "The proud moment of winning CodeSprint 7.0, where my team secured 1st place out of more than 550 teams and competed against over 2,400 participants.",
+      name: "CodeSprint 7.0",
+      designation: "",
+      company: "IEEE Student Branch of IIT",
       image: codesprintImage,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "We achieved 2nd Runner-Up at PearlHack 2.0, organized by the WIE Affinity Group of SUSL.",
+      name: "PearlHack 2.0",
+      designation: "",
+      company: "WIE Affinity Group of SUSL",
       image: pearlhackImage,
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wagfng",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "We proudly participated in the Hack Like a Girl competition, organized by the WIE Sri Lanka Section.",
+      name: "HackLikeAGirl",
+      designation: "",
+      company: "WIE Sri Lanka Section",
+      image: hacklikeagirl,
+    },
+    {
+      testimonial:
+        "My team and I had the privilege af attending an insightful session at Creative Software, where we gained valuable knowledge and perspectives from their key directors.",
+      name: "Creative Software Industry Visit",
+      designation: "",
+      company: "Creative Software",
+      image: creativesoftware,
+    },
+    {
+      testimonial:
+        "Our batch had the opportunity to go on an industrial visit to CodeGen International, where we attended informative sessions and had the chance to tour their impressive facilities.",
+      name: "Codegen Industry Visit",
+      designation: "",
+      company: "Codegen International",
+      image: codegen,
+    },
+    {
+      testimonial:
+        "We attended an informative session at the Zone24 premises, organized by StudPRO Sri Lanka. The session provided us with valuable insights and information about the industry.",
+      name: "Zone24x7 Industry Visit",
+      designation: "",
+      company: "Zone24x7",
+      image: zone24,
     },
   ];
   
@@ -197,107 +230,100 @@ import {
     {
       name: "Derma Mobile App",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "I developed an innovative app designed to detect skin diseases with just a snap of an image. Built on a Convolutional Neural Network (CNN) architecture, the model has been trained to accurately identify 10 different skin diseases, providing a quick and reliable diagnostic tool.",
       tags: [
         {
-          name: "react",
+          name: "flutter",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
+          name: "firebase",
+          color: "orange-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "figma",
           color: "pink-text-gradient",
         },
+        {
+          name: "TensorFlow",
+          color: "green-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: derma,
+      source_code_link: "https://github.com/DMevinPerera/Derma_Skin_App",
+      design_code_link: "https://www.figma.com/design/5rTCwrOkW5fhALT3AzGbK9/Untitled?node-id=0-1&node-type=canvas&t=C0dZKKKgut2gBM39-0",
     },
     {
-      name: "Job IT",
+      name: "CityWays",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An App designed through Figma to manage the traffic in Sri Lanka.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "figma",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: cityways,
+      //source_code_link: "https://github.com/DMevinPerera/Derma_Skin_App",
+      design_code_link: "https://www.figma.com/design/nIxftMKCX5VrsWBHuxFCrT/CityWays_Team-SynTax_Error-(Copy)?node-id=0-1&node-type=canvas&t=iEMZrL76fLafbJrK-0",
     },
     {
-      name: "Trip Guide",
+      name: "EventVibes",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Website which enables Event Planers to showcase their work and clients to directly order their services.",
       tags: [
         {
-          name: "nextjs",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: eventvibes,
+      source_code_link: "https://github.com/ishanilakshika/EventVibe",
+      design_code_link:"https://www.figma.com/design/bu6JS18ai80HxQGD85KZEN/Team-SynTax_Error?node-id=0-1&node-type=canvas&t=QU3TwYWvWLKITjnC-0",
     },
     {
-      name: "Trip Guide",
+      name: "Campinga",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A website designed for users to easily locate camping gear for rent.",
       tags: [
         {
-          name: "nextjs",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Bootstrap",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MySQL",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: campinga,
+      source_code_link: "https://github.com/DMevinPerera/Campinga",
+      design_code_link: "https://www.figma.com/design/DtV6hjD1JLegLFGqdbC0I0/Campinga?node-id=0-1&t=eIQS5YWZC515XFCe-1",
     },
     {
-      name: "Trip Guide",
+      name: "SLAR",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An App designed through Figma to manage the natural disasters which are occuring in Sri Lanka",
       tags: [
         {
-          name: "nextjs",
+          name: "figma",
           color: "blue-text-gradient",
         },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: slar,
+      //source_code_link: "https://github.com/",
+      design_code_link: "https://www.figma.com/design/KHJOTfbidjqVisvwQe9Uwb/SLAR-Disaster-Management-Website?node-id=0-1&node-type=canvas&t=SBjRcI35IvoHkPe7-0",
     },
     {
       name: "Trip Guide",
