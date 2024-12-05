@@ -24,18 +24,25 @@
     .myphoto img {
         width: 100%; /* Ensure the image scales with its container */
         border-radius: 1rem; 
-        margin-top: 3rem;
-        padding-top: 20rem;/* Slightly reduce the border radius */
+        margin-top: 20rem;
+        padding-top: 15rem;/* Slightly reduce the border radius */
     }
+
+
+
 }
 
 @media (max-width: 480px) {
     .myphoto {
         width: 100%; /* Further adjustments for very small screens */
-        margin-top: 5rem; /* Increased top margin to move image down */
+        margin-top: 2rem; /* Increased top margin to move image down */
     }
 
     .myphoto img {
         border-radius: 0.5rem; /* Adjust border radius for smaller screens */
     }
+
+   
+
+
 }
